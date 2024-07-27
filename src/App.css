@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: #bde0fe;
+}
+
+.header {
+  background-color: #2f3e46;
+  color: white;
+  padding: 14px;
+  width: 100%;
+}
+#para {
+  color: white;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.footer {
+  background-color: blue;
+  color: white;
+}
+
+button {
+  background-color: goldenrod;
+  color: black;
+  padding: 3px;
+  border-radius: 8px;
+  margin: 20px;
+}
+
+.data-container {
+  width: 80%;
+  margin: auto;
+  padding: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.data-header,
+.data-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.data-header {
+  background-color: #f0f0f0;
+  border-bottom: 1px solid #ccc;
+}
+
+.data-row:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.data-row h4 {
+  margin: 0;
+  color: darkorchid;
+}
